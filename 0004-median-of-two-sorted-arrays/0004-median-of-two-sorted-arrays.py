@@ -20,18 +20,6 @@ class Solution:
         counter = 1
         while counter < idxMed1:
             nums1, nums2, temp = self.findMinimumNumberAndRemoveFromArray(nums1, nums2)
-            # num1 = None
-            # num2 = None
-            # if len(nums1) > 0 and len(nums2) == 0:
-            #     nums1 = nums1[1:]
-            # elif len(nums2) > 0 and len(nums1) == 0:
-            #     nums2 = nums2[1:]
-            # elif len(nums1) > 0 and len(nums2) > 0:
-            #     if nums1[0] <= nums2[0]:
-            #         nums1 = nums1[1:]
-            #     elif nums2[0] < nums1[0]:
-            #         nums2 = nums2[1:]
-
             counter += 1
 
         nums1, nums2, median1 = self.findMinimumNumberAndRemoveFromArray(nums1, nums2)
