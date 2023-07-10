@@ -4,7 +4,6 @@ class Solution:
         position = 0
         arrow = "up"
         for i, v in enumerate(s):
-            print("CEK", i, v, position, numRows)
             temp[position].append(v)
             if numRows > 1:
                 if arrow == "up":
@@ -19,7 +18,7 @@ class Solution:
                         arrow = "up"
                     else:
                         position -= 1
-            
+
         output = ""
         for v in temp:
             output += "".join(v)
