@@ -12,15 +12,6 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 
     output := new(ListNode)
     temp := output
-    // i:=0
-    // for {
-    //     fmt.Println("CEK", list1.Val)
-    //     list1 = list1.Next
-    //     i++
-    //     if list1 == nil {
-    //         break
-    //     }
-    // }
     for list1 != nil || list2 != nil {
         if list1 != nil && list2 != nil {
             if list2.Val <= list1.Val {
@@ -43,16 +34,6 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
         }
         temp = temp.Next
     }
-    // minValue := list1.Val
-    // maxValue := list2.Val
-    // if list2.Val <= list1.Val {
-    //     minValue = list2.Val
-    //     maxValue = list1.Val
-    // }
-    // temp.Val = minValue
-    // temp.Next = &ListNode{Val:maxValue, Next: nil}
-    // temp = nil
 
-    fmt.Printf(" %+v\n", temp)
     return output
 }
