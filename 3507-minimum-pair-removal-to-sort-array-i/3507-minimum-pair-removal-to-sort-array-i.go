@@ -2,11 +2,8 @@ func minimumPairRemoval(nums []int) int {
     output:=0
 
     for len(nums) > 1 {
-        fmt.Println("nums.   ",nums)
         new_nums, already_sorted := decreaseMinimumPair(nums)
-        fmt.Println("new_nums",new_nums)
-        fmt.Println("already_sorted",already_sorted)
-
+        
         if already_sorted {
             break
         }
