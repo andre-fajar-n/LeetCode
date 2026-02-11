@@ -15,11 +15,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/andre-fajar-n/LeetCode/tree/master/0001-two-sum) |
 | [1200-minimum-absolute-difference](https://github.com/andre-fajar-n/LeetCode/tree/master/1200-minimum-absolute-difference) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/andre-fajar-n/LeetCode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/andre-fajar-n/LeetCode/tree/master/0001-two-sum) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/andre-fajar-n/LeetCode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Linked List
 |  |
